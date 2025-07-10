@@ -10,7 +10,7 @@ Node.js wrapper for the ER:LC (Emergency Response: Liberty County) Private Serve
 ## Installation
 
 ```bash
-npm install erlc-wrapper
+npm install erlc-game-api-wrapper
 ```
 
 ## Usage
