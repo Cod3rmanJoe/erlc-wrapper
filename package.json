@@ -1,0 +1,14 @@
+{
+    "name": "erlc-wrapper",
+    "version": "1.0.0",
+    "description": "Node.js wrapper for the ER:LC Private Server API",
+    "main": "index.js",
+    "type": "module",
+    "author": "Cod3rmanJoe",
+    "license": "MIT",
+    "keywords": ["erlc", "api", "discord", "wrapper", "bot"],
+    "dependencies": {
+      "node-fetch": "^3.4.1"
+    }
+  }
+  
