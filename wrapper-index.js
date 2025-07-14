@@ -46,7 +46,7 @@ export class ERLCClient {
 
     return data;
   }
-
+ 
   getServerStatus() {
     return this._request('', 'GET', null, 'status');
   }
@@ -62,4 +62,27 @@ export class ERLCClient {
   runCommand(commandText) {
     return this._request('/command', 'POST', { command: commandText });
   }
-}
+
+  getQueue() {
+    return this._request('/queue', 'GET', null, 'queue');
+  }
+
+  getJoinLogs() {
+    return this._request('/joinlogs', 'GET', null, 'joinlogs');
+  }
+
+  getKillLogs() {
+    return this._request('/killlogs', 'GET', null, 'killlogs');
+  }
+
+  getCommandLogs() {
+    return this._request('/commandlogs', 'GET', null, 'commandlogs');
+  }
+
+  getModCalls() {
+    return this._request('/modcalls', 'GET', null, 'modcalls');
+  }
+
+  getBans() {
+    return this._request('/bans', 'GET', null, 'bans');
+  }
